@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" height="100%" style="background:#090d16; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;">
+  <rect width="100%" height="100%" fill="#0a0f1d" rx="12"/>
+  <text x="360" y="36" fill="#f8fafc" font-size="20" font-weight="700" text-anchor="middle">Threat Intelligence Alert Funnel &amp; Noise Suppression</text>
+  <text x="360" y="58" fill="#94a3b8" font-size="13" text-anchor="middle">How organizational correlation filters 1,000 raw indicators</text>
+
+  <!-- Funnel step 1 -->
+  <g transform="translate(60, 90)">
+    <rect x="0" y="0" width="600" height="50" fill="#1e293b" stroke="#334155" rx="8"/>
+    <text x="20" y="30" fill="#f1f5f9" font-size="14" font-weight="600">1. External Threat Intelligence Ingestion</text>
+    <text x="580" y="30" fill="#94a3b8" font-size="14" font-weight="700" text-anchor="end">1,000 Indicators</text>
+  </g>
+
+  <!-- Funnel step 2: Baseline Alert Fatigue -->
+  <g transform="translate(60, 155)">
+    <rect x="0" y="0" width="450" height="50" fill="#450a0a" stroke="#b91c1c" rx="8"/>
+    <text x="20" y="30" fill="#fecaca" font-size="14" font-weight="600">2. Baseline External-Feed-Only Alerting</text>
+    <text x="430" y="30" fill="#f87171" font-size="14" font-weight="700" text-anchor="end">719 Alerts (High Fatigue)</text>
+  </g>
+
+  <!-- Funnel step 3: ThreatLens Suppression -->
+  <g transform="translate(60, 220)">
+    <rect x="0" y="0" width="600" height="50" fill="#0f172a" stroke="#0284c7" rx="8"/>
+    <text x="20" y="30" fill="#38bdf8" font-size="14" font-weight="600">3. Noise Suppressed by ThreatLens</text>
+    <text x="580" y="30" fill="#38bdf8" font-size="14" font-weight="700" text-anchor="end">-855 Suppressed (85.5% Total Inflow)</text>
+  </g>
+
+  <!-- Funnel step 4: Actionable Local Queue -->
+  <g transform="translate(60, 285)">
+    <rect x="0" y="0" width="220" height="50" fill="#064e3b" stroke="#10b981" rx="8"/>
+    <text x="20" y="30" fill="#6ee7b7" font-size="14" font-weight="600">4. High-Priority Local Queue</text>
+    <text x="200" y="30" fill="#a7f3d0" font-size="14" font-weight="700" text-anchor="end">145 Actionable IOCs</text>
+  </g>
+
+  <text x="360" y="375" fill="#64748b" font-size="12" text-anchor="middle">Every actionable IOC contains an evidence chain linking network telemetry, affected assets, or CVE inventory.</text>
+</svg>

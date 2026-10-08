@@ -1,0 +1,17 @@
+{
+  "name": "Baseline (Threat Feed Only)",
+  "total_indicators": 1000,
+  "tp": 150,
+  "fp": 569,
+  "tn": 281,
+  "fn": 0,
+  "total_prioritized": 719,
+  "recall": 100.0,
+  "precision": 20.86,
+  "suppression_rate": 33.06,
+  "fpr": 66.94,
+  "fnr": 0.0,
+  "accuracy": 43.1,
+  "f1_score": 34.52,
+  "workload_reduction": 0.0
+}

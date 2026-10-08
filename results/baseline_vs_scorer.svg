@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="100%" height="100%" style="background:#090d16; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;">
+  <rect width="100%" height="100%" fill="#0a0f1d" rx="12"/>
+  <text x="380" y="36" fill="#f8fafc" font-size="20" font-weight="700" text-anchor="middle">Baseline vs. ThreatLens Performance Comparison</text>
+  <text x="380" y="58" fill="#94a3b8" font-size="13" text-anchor="middle">Evaluating alert suppression, precision, and analyst workload</text>
+
+  <!-- Legend -->
+  <rect x="250" y="78" width="16" height="12" fill="#ef4444" rx="3"/>
+  <text x="272" y="88" fill="#cbd5e1" font-size="12">Baseline (Feed Only)</text>
+  <rect x="420" y="78" width="16" height="12" fill="#10b981" rx="3"/>
+  <text x="442" y="88" fill="#cbd5e1" font-size="12">ThreatLens (Local-Relevance)</text>
+
+  <!-- Metrics Bars -->
+  <!-- 1. Suppression Rate -->
+  <g transform="translate(60, 115)">
+    <text x="0" y="15" fill="#e2e8f0" font-size="13" font-weight="600">Irrelevant Suppression Rate</text>
+    <!-- Baseline Bar -->
+    <rect x="240" y="2" width="132.24" height="18" fill="#ef4444" rx="4"/>
+    <text x="377.24" y="16" fill="#fca5a5" font-size="12" font-weight="600">33.06%</text>
+    <!-- ThreatLens Bar -->
+    <rect x="240" y="24" width="400.0" height="18" fill="#10b981" rx="4"/>
+    <text x="645.0" y="38" fill="#86efac" font-size="12" font-weight="600">100.0%</text>
+  </g>
+
+  <!-- 2. Local Threat Recall -->
+  <g transform="translate(60, 180)">
+    <text x="0" y="15" fill="#e2e8f0" font-size="13" font-weight="600">Local Threat Recall</text>
+    <!-- Baseline Bar -->
+    <rect x="240" y="2" width="400.0" height="18" fill="#ef4444" rx="4"/>
+    <text x="645.0" y="16" fill="#fca5a5" font-size="12" font-weight="600">100.0%</text>
+    <!-- ThreatLens Bar -->
+    <rect x="240" y="24" width="386.68" height="18" fill="#10b981" rx="4"/>
+    <text x="631.6800000000001" y="38" fill="#86efac" font-size="12" font-weight="600">96.67%</text>
+  </g>
+
+  <!-- 3. Alert Precision -->
+  <g transform="translate(60, 245)">
+    <text x="0" y="15" fill="#e2e8f0" font-size="13" font-weight="600">Alert Queue Precision</text>
+    <!-- Baseline Bar -->
+    <rect x="240" y="2" width="83.44" height="18" fill="#ef4444" rx="4"/>
+    <text x="328.44" y="16" fill="#fca5a5" font-size="12" font-weight="600">20.86%</text>
+    <!-- ThreatLens Bar -->
+    <rect x="240" y="24" width="400.0" height="18" fill="#10b981" rx="4"/>
+    <text x="645.0" y="38" fill="#86efac" font-size="12" font-weight="600">100.0%</text>
+  </g>
+
+  <!-- 4. Workload Reduction -->
+  <g transform="translate(60, 310)">
+    <text x="0" y="15" fill="#e2e8f0" font-size="13" font-weight="600">SOC Workload Reduction</text>
+    <!-- Baseline Bar -->
+    <rect x="240" y="2" width="10" height="18" fill="#ef4444" rx="4"/>
+    <text x="255" y="16" fill="#fca5a5" font-size="12" font-weight="600">0.0% (Baseline)</text>
+    <!-- ThreatLens Bar -->
+    <rect x="240" y="24" width="319.32" height="18" fill="#38bdf8" rx="4"/>
+    <text x="564.3199999999999" y="38" fill="#7dd3fc" font-size="12" font-weight="600">+79.83%</text>
+  </g>
+
+  <!-- Bottom Insight -->
+  <rect x="60" y="380" width="640" height="40" fill="#1e293b" rx="6"/>
+  <text x="380" y="405" fill="#cbd5e1" font-size="13" font-weight="500" text-anchor="middle">Alert Fatigue Eliminated: 719 baseline alerts reduced to 145 verified local incidents.</text>
+</svg>

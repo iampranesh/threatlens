@@ -1,0 +1,6 @@
+{
+  "name": "ThreatLens - Local-Relevance Threat Intelligence Platform",
+  "description": "Explainable local-relevance threat intelligence prioritization platform that correlates external IOCs with internal organizational telemetry, software inventory, and incidents to suppress noise without missing true local threats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

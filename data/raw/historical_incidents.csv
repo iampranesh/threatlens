@@ -1,0 +1,60 @@
+incident_id,indicator,date,affected_asset,incident_type,severity,confirmed_malicious,resolution,business_impact
+INC-2026-0001,198.51.100.2,2026-06-14,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0002,198.51.100.4,2026-08-30,APP-CORE-03,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0003,apt-telemetry-c2-005.synthetic-threat.org,2026-09-23,WEB-PROD-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0004,apt-telemetry-c2-007.synthetic-threat.org,2026-07-09,K8S-INGRESS-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0005,http://198.51.100.11/payloads/c2_beacon_10.bin,2026-08-03,DB-MAIN-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0006,apt-telemetry-c2-011.synthetic-threat.org,2026-08-08,APP-CORE-03,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0007,198.51.100.17,2026-08-14,WEB-PROD-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0008,apt-telemetry-c2-017.synthetic-threat.org,2026-06-10,WORKSTATION-SEC-09,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0009,198.51.100.19,2026-09-21,WEB-PROD-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0010,198.51.100.20,2026-06-20,DB-MAIN-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0011,198.51.100.22,2026-08-03,WEB-PROD-02,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0012,http://198.51.100.23/payloads/c2_beacon_22.bin,2026-08-27,DB-MAIN-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0013,9aa97bc5d213bea5301a37126167483bc116025c15d0edeb6d88471ef2df36e8,2026-08-24,MAIL-RELAY-01,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0014,http://198.51.100.27/payloads/c2_beacon_26.bin,2026-06-24,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0015,94ac0f179bb6e61fd04b211070464e5383c987e5efa3fa089fd705117e10dea9,2026-09-03,STAGING-API-01,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0016,apt-telemetry-c2-029.synthetic-threat.org,2026-08-29,DEV-TEST-05,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0017,http://198.51.100.31/payloads/c2_beacon_30.bin,2026-07-03,DB-MAIN-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0018,apt-telemetry-c2-032.synthetic-threat.org,2026-08-21,STAGING-API-01,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0019,99423d2ec1566a6494fd8ffb58648622d39110a5cc4b9df96a655e89a83a581d,2026-09-23,WEB-PROD-02,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0020,apt-telemetry-c2-035.synthetic-threat.org,2026-07-22,STAGING-API-01,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0021,apt-telemetry-c2-038.synthetic-threat.org,2026-09-13,DB-MAIN-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0022,198.51.100.46,2026-08-13,DEV-TEST-05,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0023,e69e946aa12a2c18112712dda4b0e3124c1d16376be835c48a1596c161122389,2026-07-18,APP-CORE-03,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0024,198.51.100.52,2026-07-08,APP-CORE-03,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0025,ddb38fea2741eb11bcc9d56e149c854a48e33f1417110306efdffe98734e1458,2026-06-12,APP-CORE-03,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0026,apt-telemetry-c2-058.synthetic-threat.org,2026-06-14,DB-MAIN-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0027,apt-telemetry-c2-059.synthetic-threat.org,2026-07-18,K8S-INGRESS-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0028,2768f24d59ddd12e1fe5b2324c0a3a4be0e09271ec46024cc60c65f93a8a721e,2026-07-25,WEB-PROD-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0029,198.51.100.71,2026-06-28,DEV-TEST-05,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0030,0613e4d6832efca2f3906c89573e79ee5347a331fec86ea02b4691c50ad9d484,2026-07-10,VPN-GW-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0031,apt-telemetry-c2-077.synthetic-threat.org,2026-08-06,DB-MAIN-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0032,apt-telemetry-c2-078.synthetic-threat.org,2026-07-12,APP-CORE-03,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0033,f525ca7b5d9b974ce306fb4632f4b8dc523e0207575f9f2d592c1ba9463dc96b,2026-07-15,DEV-TEST-05,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0034,198.51.100.87,2026-07-01,STAGING-API-01,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0035,http://198.51.100.88/payloads/c2_beacon_87.bin,2026-07-08,WORKSTATION-SEC-09,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0036,362b597a1db290ce27841a2ed1e80c1aa7019bf368b304d1ba3a31942d90a9f0,2026-07-09,APP-CORE-03,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0037,6bd47f632ff5b2f66fd1c87cdd9f3027bfbc61359ceac3f0f037b0a270ace3d9,2026-08-12,K8S-INGRESS-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0038,198.51.100.99,2026-08-27,MAIL-RELAY-01,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0039,http://198.51.100.102/payloads/c2_beacon_101.bin,2026-08-20,DB-MAIN-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0040,apt-telemetry-c2-103.synthetic-threat.org,2026-07-13,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0041,apt-telemetry-c2-107.synthetic-threat.org,2026-09-12,WEB-PROD-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0042,198.51.100.111,2026-08-13,VPN-GW-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0043,apt-telemetry-c2-111.synthetic-threat.org,2026-08-03,VPN-GW-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0044,5e1dafe68cad52f2cc813a08cd0314d6e656bf568996a904df08852663562d96,2026-07-14,STAGING-API-01,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0045,198.51.100.119,2026-06-14,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0046,http://198.51.100.120/payloads/c2_beacon_119.bin,2026-08-28,STAGING-API-01,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0047,http://198.51.100.122/payloads/c2_beacon_121.bin,2026-08-20,K8S-INGRESS-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0048,apt-telemetry-c2-125.synthetic-threat.org,2026-08-05,WEB-PROD-02,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0049,198.51.100.128,2026-06-29,K8S-INGRESS-01,Command and Control,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0050,apt-telemetry-c2-131.synthetic-threat.org,2026-09-07,WEB-PROD-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0051,apt-telemetry-c2-132.synthetic-threat.org,2026-06-11,WEB-PROD-02,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0052,apt-telemetry-c2-133.synthetic-threat.org,2026-09-22,WEB-PROD-02,Command and Control,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0053,198.51.100.137,2026-09-26,WEB-PROD-02,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0054,198.51.100.139,2026-09-17,WEB-PROD-02,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0055,198.51.100.140,2026-09-15,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0056,http://198.51.100.144/payloads/c2_beacon_143.bin,2026-08-16,APP-CORE-03,Exploitation Attempt,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0057,198.51.100.147,2026-08-15,DB-MAIN-01,Exploitation Attempt,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0058,apt-telemetry-c2-148.synthetic-threat.org,2026-06-11,DEV-TEST-05,Ransomware Staging,high,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement
+INC-2026-0059,apt-telemetry-c2-149.synthetic-threat.org,2026-06-21,DB-MAIN-01,Ransomware Staging,critical,True,Contained & Remediated,Disrupted internal service node; blocked lateral movement

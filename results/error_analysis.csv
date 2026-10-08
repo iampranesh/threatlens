@@ -1,0 +1,6 @@
+indicator,ground_truth,prediction,score,error_type,root_cause,recommended_fix
+449937d78e2d25c953bbda26ef3337b590926777097e04992c90770701660baa,local,MEDIUM,43.9,False Negative,Asset was internal-only with sparse telemetry or lower feed confidence,Lower threshold for critical internal crown-jewel assets even with single telemetry log
+apt-telemetry-c2-044.synthetic-threat.org,local,MEDIUM,42.8,False Negative,Asset was internal-only with sparse telemetry or lower feed confidence,Lower threshold for critical internal crown-jewel assets even with single telemetry log
+dc8d5ec863164d1980f0b2c6b8088d83e24cb3972ef57cec378e3fd91f3cf1e7,local,MEDIUM,46.4,False Negative,Asset was internal-only with sparse telemetry or lower feed confidence,Lower threshold for critical internal crown-jewel assets even with single telemetry log
+198.51.100.71,local,MEDIUM,57.5,False Negative,Asset was internal-only with sparse telemetry or lower feed confidence,Lower threshold for critical internal crown-jewel assets even with single telemetry log
+198.51.100.92,local,MEDIUM,43.6,False Negative,Asset was internal-only with sparse telemetry or lower feed confidence,Lower threshold for critical internal crown-jewel assets even with single telemetry log

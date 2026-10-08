@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-10-08T09:17:42.025186Z",
+  "threatlens_metrics": {
+    "name": "ThreatLens (Local-Relevance)",
+    "total_indicators": 1000,
+    "tp": 145,
+    "fp": 0,
+    "tn": 850,
+    "fn": 5,
+    "total_prioritized": 145,
+    "recall": 96.67,
+    "precision": 100.0,
+    "suppression_rate": 100.0,
+    "fpr": 0.0,
+    "fnr": 3.33,
+    "accuracy": 99.5,
+    "f1_score": 98.31,
+    "workload_reduction": 79.83,
+    "scoring_latency_ms": 0.043
+  },
+  "baseline_metrics": {
+    "name": "Baseline (Threat Feed Only)",
+    "total_indicators": 1000,
+    "tp": 150,
+    "fp": 569,
+    "tn": 281,
+    "fn": 0,
+    "total_prioritized": 719,
+    "recall": 100.0,
+    "precision": 20.86,
+    "suppression_rate": 33.06,
+    "fpr": 66.94,
+    "fnr": 0.0,
+    "accuracy": 43.1,
+    "f1_score": 34.52,
+    "workload_reduction": 0.0
+  },
+  "targets": {
+    "suppression_rate": {
+      "target": 60.0,
+      "comp": ">=",
+      "measured": 100.0,
+      "status": "PASS"
+    },
+    "recall": {
+      "target": 95.0,
+      "comp": ">=",
+      "measured": 96.67,
+      "status": "PASS"
+    },
+    "fnr": {
+      "target": 5.0,
+      "comp": "<=",
+      "measured": 3.33,
+      "status": "PASS"
+    },
+    "workload_reduction": {
+      "target": 50.0,
+      "comp": ">=",
+      "measured": 79.83,
+      "status": "PASS"
+    }
+  }
+}

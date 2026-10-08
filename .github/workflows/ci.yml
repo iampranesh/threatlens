@@ -1,0 +1,46 @@
+name: ThreatLens CI Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-and-verify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+
+    - name: Install Node Dependencies
+      run: npm ci
+
+    - name: Generate Synthetic Pilot Dataset
+      run: python3 scripts/generate_dataset.py
+
+    - name: Execute Automated Unit, Edge Case & Security Test Suites
+      run: python3 -m unittest discover tests
+
+    - name: Run Benchmark Experiments & Validate Targets
+      run: python3 experiments/run_experiment.py
+
+    - name: Verify Security Test Matrix Documentation
+      run: python3 scripts/run_security_tests.py
+
+    - name: TypeScript Lint & Compilation Verification
+      run: npm run lint
+
+    - name: Production Vite Build
+      run: npm run build
